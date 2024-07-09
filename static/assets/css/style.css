@@ -1114,16 +1114,26 @@ section .container {
 .publication-links a {
     color: #007bff;
     text-decoration: none;
-    /* Remove default underline */
     transition: color 0.3s;
-    /* Smooth color transition on hover */
 }
 
 .publication-links a:hover {
     color: #0056b3;
-    /* Darker blue on hover */
     text-decoration: underline;
-    /* Add underline on hover */
+}
+
+.publication-tags ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.publication-tags .tag-item {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #18d26e;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 
